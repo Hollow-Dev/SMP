@@ -1,0 +1,26 @@
+name: SurvivalPlugin
+version: 1.0
+main: com.hollowdev.SurvivalPlugin
+api-version: 1.20
+commands:
+  sethome:
+    description: Sets a home location
+    usage: /sethome <name>
+  delhome:
+    description: Deletes a home location
+    usage: /delhome <name>
+  listhomes:
+    description: Lists all your home locations
+    usage: /listhomes
+  home:
+    description: Teleports you to a home location
+    usage: /home <name>
+  tpa:
+    description: Request to teleport to a player
+    usage: /tpa <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny
